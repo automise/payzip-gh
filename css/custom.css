@@ -1,0 +1,294 @@
+html {
+    font-family: "Open Sans", Helvetica, Arial, serif;
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #727272;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0;
+    background-color: #ffffff;
+}
+.main-wrapper {
+	overflow: hidden;
+}
+header {
+    background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-content img {
+    min-height: 100px;
+}
+.overlay {
+	position: relative;
+    zoom: 1;
+    background: linear-gradient(rgba(51, 51, 51, .5), rgba(51, 51, 51, .6));
+    height: 490px;
+}
+.vmiddle {
+    position: relative;
+    top: 91%;
+    -webkit-transform: translateY(-91%);
+    -moz-transform: translateY(-91%);
+    -o-transform: translateY(-91%);
+    -ms-transform: translateY(-91%);
+    transform: translateY(-91%);
+}
+.intro-content {
+    text-align: center;
+}
+.navbar-fixed-top {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.btn-ghost__red {
+    color: #c43234 !important;
+    border-color: #c43234 !important;
+}
+.btn-ghost__grey {
+    color: #727272 !important;
+    border-color: #727272 !important;
+}
+.btn-ghost__grey:hover {
+    color: #C43234 !important;
+    border-color: #C43234 !important;
+    background: transparent !important;
+}
+nav {
+	color: white;
+}
+.text-white {
+	color: white;
+}
+.image-logo img {
+    margin-top: -5px;
+    width: 150px;
+}
+.image-logo__footer img {
+    width: 250px;
+}
+.navbar-nav>li>a {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: transparent !important;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+h1 { 
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+h2 {
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 300;
+    text-align: center;
+}
+h3 {
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: 300;
+}
+h4 {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #353535;
+}
+.large {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero-section p {
+	margin-top: -25px;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 35px;
+}
+@media(max-width: 970px) {
+    .sub-footer ul {
+        float: none !important;
+        margin-top: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+.sub-footer ul {
+    float: right;
+    margin-top: -60px;
+}
+.sub-footer ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+.sub-footer ul li a {
+    color: #fff;
+    font-size: 22px;
+}
+.sub-footer ul li a:hover { 
+    color: #fff;
+    text-decoration: none;
+}
+.meet-the-team a {
+    color: #353535;  
+}
+.meet-the-team a:hover {
+    text-decoration: none;
+}
+@media(max-width: 700px) {
+    .vmiddle {
+        top: 100%;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 26px;
+    }
+    .hero-section p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;
+    }
+    .hero-section p br{
+        display: none;
+    }
+    .hero-section p br:before{
+        content: "^";
+    }
+    h1, h2, h3 {
+        font-size: 33px;
+        line-height: 34px;
+        padding-bottom: 15px;
+    }
+    .hero-section .btn-box {
+        display: none;
+    }
+}
+.icon-bar {
+	background: white;
+}
+.btn-ghost {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    transition: all ease .5s;
+}
+.btn-color {
+	background: #c43234;
+	color: white;
+	margin-left: 35px;
+    transition: all ease .5s;
+}
+.btn-color:hover {
+	color: white;
+    background: #9E2E30;
+    transition: all ease .5s;
+}
+.btn-ghost:hover {
+    color: #C43234;
+    background: #fff;
+    transition: all ease .5s;
+}
+.first-section h3 {
+    text-align: center;
+}
+section {
+    padding: 40px 0;
+}
+.grey {
+    background: #fafafa;
+}
+.white {
+    background: #fff;
+}
+.second-section .col-md-6 {
+    padding: 30px 0;
+}
+.second-section .spacing {
+    padding: 40px 0;
+}
+.second-section .btn-box {
+    padding-top: 25px;
+}
+.btn-red {
+    color: #c43234 !important;
+    border-color: #c43234 !important;
+}
+footer {
+    padding: 200px 0;
+    background: #C43234;
+    color: #fff;
+}
+.text-logo {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 21px;
+    color: #ffffff;
+}
+.footer-hero, .footer-cta {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.footer-cta a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-cta a:hover {
+    text-decoration: underline;
+}
+.btn-white {
+    background: #fff;
+    border-color: #fff;
+    color: #333;
+}
+.footer-copy {
+    margin-top: 100px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+}
+.left-align {
+    margin-top: 0;
+    text-align: left !important;
+}
+.sub-footer {
+    margin-top: 0;
+    padding-top: 0;
+    background: #9E2E30;
+    color: #fff;
+}
+.sub-footer .footer-copy {
+    margin-top: 20px;
+}
+.sub-footer .no-margin {
+    margin: 0 0 20px 0;
+}
+.nomargin {
+    margin-bottom: 0;
+}
