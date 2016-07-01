@@ -32,7 +32,7 @@ gulp.task('images', function() {
         .pipe(imagemin({
             progressive: true,
             multipass: true,
-            optimizationLevel: 5
+            optimizationLevel: 7
         }))
         .pipe(gulp.dest('build/img'));
 });
